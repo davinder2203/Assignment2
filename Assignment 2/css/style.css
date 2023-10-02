@@ -1,0 +1,46 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    text-align: center;
+    font-size: 2em;
+    justify-content: center;
+    background-image: url(../images/Screen\ Shot\ 2023-10-02\ at\ 12.53.55\ AM.png);
+    background-size: cover;
+}
+.lyrics{
+    padding: 2% 10% 2% 10%;
+}
+#bannerIMG{
+    margin-top: 6%;
+    height: 300px;
+    width: auto;
+}
+h1{
+    font-family: 'Dela Gothic', sans-serif;
+}
+h2{
+    font-family: 'Dela Gothic', sans-serif;
+}
+.firstFont{
+    font-family: 'Pixelfy Sans',sans-serif;
+}
+.secondFont{
+    font-family: 'Young Serif', sans-serif;
+}
+.thirdFont{
+    font-family: 'Martian mono',sans-serif;
+}
+.fourthFont{
+    font-family: 'Bebas neue',sans-serif;
+}
+
+/* adding media queries for responsiveness */
+@media (max-width: 768px) {
+    body{
+        font-size: 1.5em;
+    }
+    #bannerIMG{
+        width: 40%;
+        height: auto;
+    }
+}
